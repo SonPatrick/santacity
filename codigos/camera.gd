@@ -1,7 +1,7 @@
 extends Camera2D
 
 var alvo: Node2D # variável que recebe o nó do nosso Player
-
+var zoom = 100;
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
